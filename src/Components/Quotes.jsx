@@ -10,7 +10,7 @@ const Quotes = () => {
   ]);
 
 
-  const imagePath = quote === "all" ? "/img/all.JPG" : `/img/${quote}.JPG`;
+  const imagePath = quote === "all" ? "./img/all.JPG" : `./img/${quote}.JPG`;
 
   async function getQuote() {
     let url =
